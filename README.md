@@ -1,8 +1,5 @@
 ![Go Clean Template](docs/img/logo.svg)
 
-# Go Clean template
-[🇨🇳中文](README_CN.md)
-
 Clean Architecture template for Golang services
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/evrone/go-clean-template)](https://goreportcard.com/report/github.com/evrone/go-clean-template)
@@ -243,7 +240,7 @@ Or more complex business logic:
 - **Entities** are structures that business logic operates on.
   They are located in the `internal/entity` folder.
   In MVC terms, entities are models.
-  
+
 - **Use Cases** is business logic located in `internal/usecase`.
 
 The layer with which business logic directly interacts is usually called the _infrastructure_ layer.
